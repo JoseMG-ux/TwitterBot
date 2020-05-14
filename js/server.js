@@ -1,18 +1,23 @@
+//Required the twitter library we got with npm install twitter
+//to interact with the twitter IP
 const Twitter = require('twitter');
 
-const Cliente = new Twitter({
-     consumer_key:'you consumer key',
-     consumer_secret:'you consumer secret',
-     access_token_key:'883210347741675520-you acces token',
-     access_token_secret:'you acces token secret'
+//instantiate a twitter type variable
+const Client = new Twitter({
+     consumer_key:'your consumer key',
+     consumer_secret:'your consumer secret',
+     access_token_key:'your access token',
+     access_token_secret:'your access token secret'
 })
-     
-Cliente.post('statuses/update', {status:'JavaScript/NodeJs'})
-          .then((tweet) => {
+//Post:To send the tweet   
+Client.post('statuses/update', {status:'Your tweet that you are going to send'})
+
+// (arg) => is Arrow function
+          .then((tweet) => {//Receive the Tweet
                console.log(tweet);
 
           })
-          .catch((error) => {
+          .catch((error) => {//In case there is an error
                console.log(error);
           })
 
