@@ -20,6 +20,9 @@ npm i twitter
 
 **Create a Twitter App** in https://developer.twitter.com/en/apps to get API key and access token
 <li>Click in Create App.</li>
+
+![imageapp](https://i.imgur.com/climkCT.jpg)
+
 <li>Fill in the required information.</li>
 <li>Now the application data: Application name, description, example website: botTwitter.com.</li>
 <li>Click in Create.</li>
@@ -27,6 +30,9 @@ npm i twitter
 
 ---------------------
 **Find the api key and access token** Click in Keys and Tokens:
+
+![imagetonke](https://i.imgur.com/ubrLgyw.jpg)
+
 <li>Copy api key and paste in:</li>
 
 ```
