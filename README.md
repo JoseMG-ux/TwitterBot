@@ -1,4 +1,4 @@
-# 🚀Twitter bot with JavaScript and Nodejs💻 
+# 🚀Twitter bot with JavaScript and Nodejs👨‍💻
 
 
 
